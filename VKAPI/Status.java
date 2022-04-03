@@ -6,6 +6,14 @@ public class Status {
         return req.createVKResponse(name+"get?"
                 +"user_id="+user_ids);
     }
+    /**
+     * Необходимо text закодировать с помощью Requesrs.encodeTextFromHttp();
+     * Need endcode text with Requesrs.encodeTextFromHttp();
+     * @param req 
+     * @param user_ids
+     * @param text
+     * @return
+     */
     public static String set(Requests req, String user_ids, String text){
         return req.createVKResponse(name+"set?"
                 +"text="+text
