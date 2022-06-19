@@ -32,7 +32,7 @@ public class Messages {
     public static String getConversations(Requests requests, int offset, String filter){
         return requests.createVKResponse(name+"getConversations?"
                             + "offset="+offset
-                            + "&count="+count
+                            + "&count=1"
                             + "&filter="+filter);
     }
 }
