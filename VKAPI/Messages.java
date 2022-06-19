@@ -38,7 +38,7 @@ public class Messages {
     /*
      * message_id - Уникальное id сообщения
      */
-    public static String getById(Requests request, String message_id){
+    public static String getById(Requests requests, String message_id){
         return requests.createVKResponse(name+"getById?"
                             + "message_id="+message_id);
     }
