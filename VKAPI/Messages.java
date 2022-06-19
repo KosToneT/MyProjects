@@ -40,6 +40,6 @@ public class Messages {
      */
     public static String getById(Requests requests, String message_id){
         return requests.createVKResponse(name+"getById?"
-                            + "message_id="+message_id);
+                            + "message_ids="+message_id);
     }
 }
