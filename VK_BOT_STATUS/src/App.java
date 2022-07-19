@@ -27,7 +27,7 @@ class GUI extends JFrame{
         JTextField txt = new JTextField();
         txt.setPreferredSize(new Dimension(100,30));
         JButton btn = new JButton("set text");
-        b = new Bot1("7f2ac62ca6994b6e3ccd8c433be9570129f9ce1c0a0b7c87cf817e4d6fce46f1b1610fcf199269ba859ce");
+        b = new Bot1("TOKEN");
 
         btn.addActionListener(new ActionListener(){
             @Override
